@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Kanit&family=Lato:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 45vw;
+background-color: rgb(14, 14, 24);
+    display: flex ;
+align-items: center;
+justify-content: center;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(167, 19, 19);
+    height: 500px;
+    width: 500px;
+    border-radius: 5%;
+    /* justify-content: center; */
+    box-shadow: 1px 5px 7px black;
+}
+.ep{
+    margin: 103px 15px 15px;
+    display: flex;
+}
+.name{
+    font-family: 'Dela Gothic One', cursive;
+color: white;
+    /* margin: 105px 0px 0 15px; */
+    display: flex;
+}
+.name2{
+    font-family: 'Dela Gothic One', cursive;
+color: white;
+    /* margin: 105px 0px 0 15px; */
+    display: flex;
+}
+.ep input{
+    height: 20px;
+    width: 20vw;
+    display: flex;
+    border: transparent;
+border: 0px;
+    background-color: transparent;
+}
+.ep2{
+display: flex;
+margin: 0 0 0 15px;
+}
+.ep2 input{
+    height: 20px;
+    width: 20vw;
+    display: flex;
+    margin: 0 0 0 32px;
+    border: transparent;
+border: 0px;
+    background-color: transparent;
+}
